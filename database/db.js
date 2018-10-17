@@ -20,7 +20,7 @@
 //   });
 // });
 const db = require("monk")("localhost/webfor");
-exports.users = db.get("webfor");
+exports.users = db.get("users");
 // exports.user = users.find({}, "name").then(docs => {
 //   // only the name field will be selected
 //   return docs;
